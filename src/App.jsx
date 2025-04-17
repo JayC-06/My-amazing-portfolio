@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import img1 from './images/hands-trading.jpg';
 import img2 from './images/headerpic.jpeg';
+import img3 from './images/resumepilot.png';
 
 function App() {
   const sections = ['About Me', 'Portfolio', 'Contact', 'Resume'];
@@ -11,7 +12,7 @@ function App() {
 
   const projects = [
     { name: 'ThanksButNoThanks', image: img1, repoLink: 'https://github.com/JayC-06/GIFT-EXCHANGE-.git', deployLink: 'https://jayc-06.github.io/GIFT-EXCHANGE-/' },
-    { name: 'Project 2', image: "test", repoLink: 'https://github.com', deployLink: 'https://github.com' },
+    { name: 'ResumePilot', image: img3, repoLink: 'https://github.com/Jarred13D/ResumePilot.git', deployLink: 'https://resumepilot-r1lo.onrender.com/' },
     { name: 'Project 3', image: "test", repoLink: 'https://github.com', deployLink: 'https://github.com' },
     { name: 'Project 4', image: "test", repoLink: 'https://github.com', deployLink: 'https://github.com' },
     { name: 'Project 5', image: "test", repoLink: 'https://github.com', deployLink: 'https://github.com' },
@@ -75,8 +76,13 @@ console.log(img2)
               className="avatar"
             />
             <p>
-              Hi! I'm Joshua Contreras, a passionate web developer skilled in building
-              full-stack applications. I love React and Node.js!
+              Hi! I'm Joshua Contreras — a passionate software engineering student with a deep-rooted background in health, wellness, and human performance. 
+              Before diving into the world of tech, I spent over a decade in the healthcare and fitness industries, serving as an FDNY EMT, a licensed medical massage therapist, 
+              and a NASM-certified personal trainer. I founded Anatomy Mechanic Therapeutic Training, where I specialized in postural restoration therapy, applied integration, 
+              and rapid neurological treatment for pain. My work was driven by a desire to understand and optimize the human body — a curiosity that now fuels my journey into software development.
+              I’m currently focused on front-end development with React, combining creative problem-solving with user-centered design. Just like in my previous career, I love building 
+              systems that help people feel better, move better — and now, work better through technology.
+              Let’s build something meaningful together.
             </p>
           </section>
         )}

@@ -3,6 +3,7 @@ import './App.css';
 import img1 from './images/hands-trading.jpg';
 import img2 from './images/headerpic.jpeg';
 import img3 from './images/resumepilot.png';
+import img4 from './images/chefbuddy.png';
 
 function App() {
   const sections = ['About Me', 'Portfolio', 'Contact', 'Resume'];
@@ -13,10 +14,10 @@ function App() {
   const projects = [
     { name: 'ThanksButNoThanks', image: img1, repoLink: 'https://github.com/JayC-06/GIFT-EXCHANGE-.git', deployLink: 'https://jayc-06.github.io/GIFT-EXCHANGE-/' },
     { name: 'ResumePilot', image: img3, repoLink: 'https://github.com/Jarred13D/ResumePilot.git', deployLink: 'https://resumepilot-r1lo.onrender.com/' },
-    { name: 'Project 3', image: "test", repoLink: 'https://github.com', deployLink: 'https://github.com' },
-    { name: 'Project 4', image: "test", repoLink: 'https://github.com', deployLink: 'https://github.com' },
-    { name: 'Project 5', image: "test", repoLink: 'https://github.com', deployLink: 'https://github.com' },
-    { name: 'Project 6', image: "test", repoLink: 'https://github.com', deployLink: 'https://github.com' },
+    { name: 'Chef Buddy', image: img4, repoLink: 'https://github.com/JayC-06/My-amazing-portfolio.git', deployLink: 'https://chefbuddy-as26.onrender.com/' },
+    // { name: 'Project 4', image: "test", repoLink: 'https://github.com', deployLink: 'https://github.com' },
+    // { name: 'Project 5', image: "test", repoLink: 'https://github.com', deployLink: 'https://github.com' },
+    // { name: 'Project 6', image: "test", repoLink: 'https://github.com', deployLink: 'https://github.com' },
   ]
 
   const handleNavClick = (section) => {
@@ -47,7 +48,6 @@ console.log(img2)
 
   return (
     <div className="app">
-      {/* Header */}
       <header className='header-image'>
         
         
@@ -64,9 +64,7 @@ console.log(img2)
           ))}
         </nav>
       </header>
-
-      {/* Content Section */}
-      <main>
+      <main className='coding-image'>
         {currentSection === 'About Me' && (
           <section>
             <h2>About Me</h2>
@@ -75,8 +73,8 @@ console.log(img2)
               alt="Developer"
               className="avatar"
             />
-            <p>
-              Hi! I'm Joshua Contreras — a passionate software engineering student with a deep-rooted background in health, wellness, and human performance. 
+            <p style={{ backgroundColor: '#0fb3e6', padding: '1rem', borderRadius: '8px', fontSize: '1.4rem', color: 'black' }}>
+              Hi! I'm Joshua Contreras — a passionate software engineering student with a deep-rooted background in health, wellness, and atheletic performance. 
               Before diving into the world of tech, I spent over a decade in the healthcare and fitness industries, serving as an FDNY EMT, a licensed medical massage therapist, 
               and a NASM-certified personal trainer. I founded Anatomy Mechanic Therapeutic Training, where I specialized in postural restoration therapy, applied integration, 
               and rapid neurological treatment for pain. My work was driven by a desire to understand and optimize the human body — a curiosity that now fuels my journey into software development.
@@ -171,15 +169,15 @@ console.log(img2)
 
       {/* Footer */}
       <footer>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/JayC-06?tab=repositories" target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/joshua-contreras-8653331b3/" target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>
-        <a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://stackoverflow.com" target="_blank" rel="noopener noreferrer">
           Stack Overflow
-        </a>
+        </a> */}
       </footer>
     </div>
   );

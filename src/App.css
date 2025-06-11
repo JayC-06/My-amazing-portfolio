@@ -53,6 +53,7 @@ main {
   padding: 2rem;
   background-color: rgb(42, 12, 212);
   height: 70vh;
+  
 }
 #submit {
   background-color: #0b0000;
@@ -122,4 +123,12 @@ textarea {
 .error {
   color: red;
   font-size: 0.9rem;
+}
+
+.coding-image {
+  background-image: url("./images/coding.jpg");
+  background-size: cover;
+  background-position:center; 
+  height: 100vh;
+ 
 }

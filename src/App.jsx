@@ -3,7 +3,7 @@ import './App.css';
 import img1 from './images/hands-trading.jpg';
 import img2 from './images/headerpic.jpeg';
 import img3 from './images/resumepilot.png';
-import img4 from './images/chefbuddy.png';
+import img4 from './images/ChefBuddy.png';
 
 function App() {
   const sections = ['About Me', 'Portfolio', 'Contact', 'Resume'];
@@ -74,11 +74,11 @@ console.log(img2)
               className="avatar"
             />
             <p style={{ backgroundColor: '#0fb3e6', padding: '1rem', borderRadius: '8px', fontSize: '1.4rem', color: 'black' }}>
-              Hi! I'm Joshua Contreras — a passionate software engineering student with a deep-rooted background in health, wellness, and atheletic performance. 
+              Hi! I'm Joshua Contreras — I am a recent software engineering graduate with a deep-rooted background in health, wellness, and atheletic performance. 
               Before diving into the world of tech, I spent over a decade in the healthcare and fitness industries, serving as an FDNY EMT, a licensed medical massage therapist, 
               and a NASM-certified personal trainer. I founded Anatomy Mechanic Therapeutic Training, where I specialized in postural restoration therapy, applied integration, 
               and rapid neurological treatment for pain. My work was driven by a desire to understand and optimize the human body — a curiosity that now fuels my journey into software development.
-              I’m currently focused on front-end development with React, combining creative problem-solving with user-centered design. Just like in my previous career, I love building 
+              I’m currently focused on front-end development with React, HTML, CSS and combining creative problem-solving with user-centered design. Just like in my previous career, I love building 
               systems that help people feel better, move better — and now, work better through technology.
               Let’s build something meaningful together.
             </p>
@@ -153,16 +153,20 @@ console.log(img2)
           <section>
             <h2>Resume</h2>
             <a href="/resume.pdf" download>
-              Download Resume
+              Download Resume Here!
             </a>
             <ul>
+              
+              <div style={{ backgroundColor: '#0fb3e6', padding: '3rem', borderRadius: '8px', fontSize: '1.4rem', color: 'black' }}>
+                <p> Experience in</p>
               <li>HTML & CSS</li>
               <li>JavaScript</li>
               <li>React</li>
               <li>Node.js</li>
               <li>MongoDB</li>
               <li>Express.js</li>
-            </ul>
+           </div> 
+           </ul>
           </section>
         )}
       </main>
